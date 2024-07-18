@@ -2,9 +2,9 @@ import "./style.css"
 
 function NavBar() {
   return (
-    <div className="NavBar flex justify-between p-3 ">
+    <div className="NavBar flex justify-between px-12 h-16 items-center">
         <div>
-          LOGO
+          Get<spam className="text-blue-500">Food</spam>
         </div>
         <nav>
           <ul className="flex gap-10">
@@ -15,6 +15,9 @@ function NavBar() {
         </nav>
         <div>
           <a href="##" className="bg-blue-500 p-3 border-0 rounded-lg"><button>Login</button></a>
+        </div>
+        <div className="bg-blue-300 p-2 rounded-full">
+        <i class="fa-solid fa-bars"></i>
         </div>
     </div>
   );

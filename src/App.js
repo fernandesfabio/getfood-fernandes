@@ -1,4 +1,4 @@
-
+import './all.min.css';
 import './App.css';
 import NavBar from './components/NavBar';
 
