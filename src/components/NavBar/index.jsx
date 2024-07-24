@@ -1,7 +1,7 @@
 import { FaBars } from "react-icons/fa6";
 import logo from './../assets/images/get-food-icon.png';
 import logoName from './../assets/images/getfood-name.png';
-import CartWidget from "../Cart/CartWidget";
+import {CartWidget} from "./../Cart/CartWidget";
 
 function NavBar() {
  

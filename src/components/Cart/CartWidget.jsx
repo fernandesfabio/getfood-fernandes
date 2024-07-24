@@ -1,6 +1,6 @@
 import { FaCartShopping } from "react-icons/fa6";
 
-const CartWidget = () => {
+ export const CartWidget = () => {
    
     return (
       <div>
@@ -8,5 +8,5 @@ const CartWidget = () => {
       </div>
     );
   }
-  export default CartWidget;
+
   

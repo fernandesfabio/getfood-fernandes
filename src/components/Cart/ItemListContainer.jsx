@@ -1,10 +1,6 @@
-import { Component } from "react";
 
-class ItemListContainer extends Component {
- render() {
+export const ItemListContainer = () => {
     return (
-        <p className="py-20 text-[#0e1b45] text-3xl font-bold">Texto Provisório ! </p>
+        <p className="py-20 text-[#0e1b45Criado] text-3xl font-bold">Texto Provisório ! </p>
     )
- }   
-}
-export default ItemListContainer;
+} 
