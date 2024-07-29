@@ -1,4 +1,4 @@
-import './App.css';
+
 import { ItemListContainer } from './components/Cart/ItemListContainer';
 import NavBar from './components/NavBar';
 
