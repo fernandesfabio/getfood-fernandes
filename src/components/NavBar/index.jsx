@@ -21,7 +21,7 @@ export const NavBar = () => {
           <a  className="hidden lg:block" href="#"><img className="w-[150px]" src={logoName} /></a>
         </div>
         <nav className={`absolute flex flex-col items-center justify-between w-full top-0 left-0 py-2 pb-7 shadow-xl max-lg:bg-[#0e1b45] gap-6 lg:pb-2 lg:flex md:top-[64px] lg:static lg:flex-row ${ showMenu ? "top-[64px]" : "hidden"} `}>
-          <ul className="flex flex-col items-center lg:flex-row gap-8 lg:ml-[30%]">
+          <ul className="flex flex-col items-center lg:flex-row gap-8 lg:ml-auto mr-auto">
           {
             Links.map((link)=>(
               <li key={link.name} className="text-lg font-bold list-none">
