@@ -5,15 +5,19 @@ import Swal from 'sweetalert2'
     function ItemCount ({stock, initial, onAdd}) {
 
     const [contador, setContador] = useState(initial);
-    const maxEstoque = Number(stock)
+    
     const Swal = require('sweetalert2')
 
 
     const incrementar = () => {
-        if(contador < maxEstoque) {
+        if(contador < stock) {
         setContador(contador + 1 );
         }else {
-            Swal.fire("Sem estoque disponível!");
+            Swal.fire({
+                icon: "info",
+                title: "Desculpe...",
+                text: "Não há mais itens no estoque!",
+              });
         }
     }
     const desincrementar = () => {
